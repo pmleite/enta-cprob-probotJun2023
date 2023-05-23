@@ -3,11 +3,14 @@
 #define midPulseValue (minPulseValue+maxPulseValue)/2
 #define armSpeed 15   //Higher is slow MAX 15
 
-#define DEBUG                     true
+#define DEBUG                     false
 #define AUTO_MODE                 true  // false se tiver implementado o controlo remoto PS2
 #define COLOR_READ_DELAY          50    // Não deve ser inferior a 50 nem superior a 60 
 #define CALIBRATE_COLOR_DETECTOR  false // True para entrar no modo de calibração do sensor
 #define PWM_FREQ                  60
+
+#define maxX 127//159 
+#define maxY 63 //127
 
 #define baseServo 0
 #define clawServo 1
@@ -99,6 +102,5 @@ int servHoriLastPos  =   0;
 */
 String l1   = " ______Servos POS (deg)________          (cm)          ______IRSensors_____     __________________COLOR_______________        ______SPEED______";
 String l2   = "  Garra    Base    Vert    Hori        Distance        Left   Middle  Right     RED     GREEN    BLUE         DETColor        M1Speed   M2Speed";
-
 
 

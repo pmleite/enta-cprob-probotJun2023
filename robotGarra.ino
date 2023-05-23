@@ -1,15 +1,21 @@
+#include <SparkFunSerialGraphicLCD.h>
+#include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
+#include <SoftwareSerial.h>
 #include <Wire.h>
 #include "config.h"
 #include "utils.h"
 
 Adafruit_PWMServoDriver mux = Adafruit_PWMServoDriver(0x40);
+LCD MyLCD;
+
 
 void setup() {
   
   //Inicializa porta série
   Serial.begin(9600);
   delay(100);
+
   
   //Define Pinos do sensor US
   pinMode(ULTRA_S_ECHO, INPUT);
@@ -58,6 +64,15 @@ void loop() {
  
   if (DEBUG) printValues();
 
-}
+  MyLCD.setHome();
+MyLCD.clearScreen();
+MyLCD.printStr("Toggle reverse mode");
+delay(2000);
+  
+MyLCD.clearScreen();
+MyLCD.toggleReverseMode();
+MyLCD.printStr("Reverse Mode On");
+delay(1000);
 
+}
 

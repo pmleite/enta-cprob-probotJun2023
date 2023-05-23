@@ -1,0 +1,62 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/pmleite/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/pmleite/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard"
+  },
+  {
+    "Sourcefile": "/home/pmleite/Documents/dev/00_enta_cprob/robotGarra/build/roboGarra.hex/sketch/robotGarra.ino.cpp",
+    "Include": "SparkFunSerialGraphicLCD.h",
+    "Includepath": "/home/pmleite/Arduino/libraries/SparkFun_Graphic_LCD_Serial_Backpack/src"
+  },
+  {
+    "Sourcefile": "/home/pmleite/Documents/dev/00_enta_cprob/robotGarra/build/roboGarra.hex/sketch/robotGarra.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "/home/pmleite/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries/Wire/src"
+  },
+  {
+    "Sourcefile": "/home/pmleite/Documents/dev/00_enta_cprob/robotGarra/build/roboGarra.hex/sketch/robotGarra.ino.cpp",
+    "Include": "Adafruit_PWMServoDriver.h",
+    "Includepath": "/home/pmleite/Arduino/libraries/Adafruit_PWM_Servo_Driver_Library"
+  },
+  {
+    "Sourcefile": "/home/pmleite/Documents/dev/00_enta_cprob/robotGarra/build/roboGarra.hex/sketch/robotGarra.ino.cpp",
+    "Include": "SoftwareSerial.h",
+    "Includepath": "/home/pmleite/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries/SoftwareSerial/src"
+  },
+  {
+    "Sourcefile": "/home/pmleite/Documents/dev/00_enta_cprob/robotGarra/build/roboGarra.hex/sketch/robotGarra.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/pmleite/Arduino/libraries/SparkFun_Graphic_LCD_Serial_Backpack/src/SparkFunSerialGraphicLCD.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/pmleite/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries/Wire/src/Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/pmleite/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries/Wire/src/utility/twi.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/pmleite/Arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/pmleite/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries/SoftwareSerial/src/SoftwareSerial.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

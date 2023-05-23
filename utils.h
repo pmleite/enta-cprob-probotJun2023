@@ -1,3 +1,4 @@
+
 /**
 * função que atualiza as variaveis de deteção de linha
 */
@@ -276,6 +277,5 @@ void printValues(bool full=false){
   }
 
 }
-
 
 
